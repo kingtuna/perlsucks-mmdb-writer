@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "address":"6.6.6.6/28",
+            "service_area":"LAX"
+        },
+        {
+            "address":"7.7.7.7/28",
+            "service_area":"PDX"
+        },
+        {
+            "address":"8.8.8.8/28",
+            "service_area":"NYC"
+        },
+        {
+            "address":"9.9.9.9/28",
+            "service_area":"SEA"
+        },
+        {
+            "address":"10.10.10.10/28",
+            "service_area":"BOS"
+        }
+    ]
+}
