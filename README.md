@@ -17,4 +17,5 @@ we validated it work with another language for this instance itt was node you ca
 
 ```bash
 npm install mmdb-reader
+node reader.js
 ```
