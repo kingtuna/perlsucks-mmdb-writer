@@ -12,6 +12,10 @@ sudo apt install cpanminus
 sudo cpanm Devel::Refcount MaxMind::DB::Reader::XS MaxMind::DB::Writer::Tree Net::Works::Network GeoIP2 Data::Printer
 sudo cpanm MaxMind::DB::Writer::Tree
 ```
+## Usage
+```bash
+./mmdb-perl.pl -f examples.json -d my-ip-data.mmdb
+````
 
 ## Validate
 we validated it work with another language for this instance itt was node you can install the ncessary modules for that with npm
@@ -19,9 +23,4 @@ we validated it work with another language for this instance itt was node you ca
 ```bash
 npm install mmdb-reader
 node reader.js
-```
-
-## Usage
-```bash
-./mmdb-perl.pl -f examples.json -d my-ip-data.mmdb
 ```
